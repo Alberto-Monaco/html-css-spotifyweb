@@ -152,28 +152,60 @@ body {
 .justify-content-end {
     justify-content: flex-end;
 }
+.align-items-start {
+    align-items: flex-start;
+}
+img{
+    max-width: 100%;
+}
+
 
 /* end utility rule  */
 
 /* top bar section */
 .top-bar {
-
+    background-color: var(--top-bar-bg-color);
 
     .btn {
-
         border: white 1px solid;
         border-radius: 2rem;
     }
-
     .btn-color {
         color: var(--text-primary-color);
         background-color: var(--top-bar-bg-color);
     }
-        a {
-            text-decoration: none;
-            padding: 0.5rem 2rem;
-            margin-right: 1rem;
-            font-size: 0.9rem;
-        }
+    a {
+        text-decoration: none;
+        padding: 0.5rem 2rem;
+        margin-right: 1rem;
+        font-size: 0.9rem;
+    }
+}
 
+/* end top bar section */
+
+/* sidebar section  */
+
+.logo{
+    display: block;
+    padding: 1rem;
+}
+
+.menu{
+    display: flex;
+    a{
+        text-decoration: none;
+        font-size: 0.7rem;
+        padding: 0.3rem 1rem;
+    }
+
+    &:hover{
+        
+    }
+    .secondary-text{
+        color: var(--text-secondary-color);
+    }
+}
+.home{
+    color: var(--text-primary-color);
 }

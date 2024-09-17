@@ -296,6 +296,7 @@ img {
 }
 .right-player {
     width: 30%;
+    margin: 1.5rem 0rem;
 }
 
 .px-1{
@@ -311,10 +312,27 @@ img {
     background-color:  var(--text-secondary-color);
     color: 1px solid var(--text-secondary-color);
     border-radius: 0.5rem;
+
 }
 
 .time{
     font-size: 0.8rem;
     font-weight: 200;
     color: var(--text-primary-color);
+}
+
+
+.icon{
+    font-size: 1rem;
+
+}
+
+.progress-volume{
+
+        width: 30%;
+        height: 0.4rem;
+        background-color:  var(--text-secondary-color);
+        color: 1px solid var(--text-secondary-color);
+        border-radius: 0.5rem;
+        margin-right: 1rem;
 }

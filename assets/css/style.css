@@ -152,10 +152,12 @@ body {
 .justify-content-end {
     justify-content: flex-end;
 }
+
 .align-items-start {
     align-items: flex-start;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -170,10 +172,12 @@ img{
         border: white 1px solid;
         border-radius: 2rem;
     }
+
     .btn-color {
         color: var(--text-primary-color);
         background-color: var(--top-bar-bg-color);
     }
+
     a {
         text-decoration: none;
         padding: 0.5rem 2rem;
@@ -188,52 +192,73 @@ img{
 .sidebar {
     background-color: var(--sidebar-bg-color);
 }
-.logo{
+
+.logo {
     display: block;
     padding: 1rem;
 }
 
-.menu{
+.menu {
     display: flex;
-    a{
+
+    a {
         text-decoration: none;
         font-size: 0.7rem;
         padding: 0.3rem 1rem;
     }
 
-    &:hover{
-        
-    }
-    .secondary-text{
+
+    .secondary-text {
         color: var(--text-secondary-color);
     }
-    .primary-text{
+
+    .primary-text {
         color: var(--text-primary-color);
     }
 }
-.home{
+
+.home {
     color: var(--text-primary-color);
 }
-.playlist{
+
+.playlist {
     padding-left: 1rem;
     padding-top: 1rem;
-    h3{
+
+    h3 {
         color: var(--text-primary-color);
     }
 
-    i{
+    i {
         color: var(--text-secondary-color);
-        font-size:3rem;
+        font-size: 3rem;
         vertical-align: middle;
         padding-right: 1rem;
 
     }
-    a{
+
+    a {
         text-decoration: none;
         font-size: 0.9rem;
         vertical-align: middle;
         font-size: 1.2rem;
         color: var(--text-secondary-color);
     }
+    
+}
+.name-playlist{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
 
+.bottom {
+    background-color: var(--player-bg-color);
+    img{
+        width: 3rem;
+        height: 3rem;
+        margin: 1rem;
+        display: block;
+    }
 }

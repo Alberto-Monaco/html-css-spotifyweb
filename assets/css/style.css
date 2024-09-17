@@ -1,5 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --sidebar-bg-color: black;
+    --top-bar-bg-color: #080b12;
+    --player-bg-color: #282828;
+    --box-center-bg-color: #141922;
+    --text-secondary-color: #6d6d6d;
+    --text-primary-color: white;
+    --line-hover-color: #adff2f;
+    --text-hover-color: white;
+
+}
+
+.debug * {
+    border: 1px dashed black;
+}
+
+.debug .top {
+    background-color: red;
+}
+
+.debug .bottom {
+    background-color: blue;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.top {
+    height: calc(100% - 80px);
+}
+.sidebar{
+    width: 200px;
+    height: 100%;
+}
+
+.bottom{
+    height: 80px;
+    background-color: var(--player-bg-color);
 }

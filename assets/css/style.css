@@ -253,6 +253,10 @@ img {
     color: var(--text-secondary-color);
 }
 
+.content {
+    background-color: var(--box-center-bg-color);
+}
+
 .bottom {
     background-color: var(--player-bg-color);
 

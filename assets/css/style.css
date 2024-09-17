@@ -246,11 +246,11 @@ img {
     }
     
 }
-.name-playlist{
-    padding-left: 1rem;
+.name-list{
+
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    color: white;
+    color: var(--text-secondary-color);
 }
 
 .bottom {

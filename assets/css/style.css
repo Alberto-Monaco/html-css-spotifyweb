@@ -185,7 +185,9 @@ img{
 /* end top bar section */
 
 /* sidebar section  */
-
+.sidebar {
+    background-color: var(--sidebar-bg-color);
+}
 .logo{
     display: block;
     padding: 1rem;
@@ -204,6 +206,9 @@ img{
     }
     .secondary-text{
         color: var(--text-secondary-color);
+    }
+    .primary-text{
+        color: var(--text-primary-color);
     }
 }
 .home{

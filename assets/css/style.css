@@ -161,6 +161,13 @@ img {
     max-width: 100%;
 }
 
+.secondary-text {
+    color: var(--text-secondary-color);
+}
+
+.primary-text {
+    color: var(--text-primary-color);
+}
 
 /* end utility rule  */
 
@@ -207,14 +214,6 @@ img {
         padding: 0.3rem 1rem;
     }
 
-
-    .secondary-text {
-        color: var(--text-secondary-color);
-    }
-
-    .primary-text {
-        color: var(--text-primary-color);
-    }
 }
 
 .home {
@@ -244,9 +243,10 @@ img {
         font-size: 1.2rem;
         color: var(--text-secondary-color);
     }
-    
+
 }
-.name-list{
+
+.name-list {
 
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -255,10 +255,30 @@ img {
 
 .bottom {
     background-color: var(--player-bg-color);
-    img{
+
+    img {
         width: 3rem;
         height: 3rem;
         margin: 1rem;
-        display: block;
     }
+}
+
+.title-song {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+
+}
+
+.song {
+    font-size: 0.7rem;
+}
+
+.info-song {
+    margin-right: 3rem;
+}
+
+.icon-song {
+    margin-top: 1.5rem;
+
+
 }

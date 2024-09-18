@@ -464,7 +464,7 @@ img {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 768px){
     .col-md-1 {
         width: calc(100% / 12 * 1);
     }
@@ -514,7 +514,7 @@ img {
     }
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 0px) and (max-width: 600px) {
     .col-s-1 {
         width: calc(100% / 12 * 1);
     }

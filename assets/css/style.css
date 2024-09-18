@@ -259,6 +259,7 @@ img {
 }
 
 .content {
+    height: auto;
     background-color: var(--box-center-bg-color);
 }
 

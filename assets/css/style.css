@@ -247,9 +247,7 @@ img {
 }
 
 .name-list {
-
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
     color: var(--text-secondary-color);
 }
 
@@ -339,4 +337,12 @@ img {
     color: 1px solid var(--text-secondary-color);
     border-radius: 0.5rem;
     margin-right: 1rem;
+}
+
+.box-center {
+    overflow-y: scroll;
+}
+
+.name-list a{
+    font-size: 0.9rem;
 }

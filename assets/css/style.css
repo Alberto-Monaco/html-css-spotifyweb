@@ -381,13 +381,13 @@ img {
     justify-content: space-around ;
 }
 .title-song{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: var(--text-primary-color);
     text-align: center;
 
 }
 .subtitle{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     color: var(--text-secondary-color);
     text-align: center;
 }

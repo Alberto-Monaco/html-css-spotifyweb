@@ -438,7 +438,7 @@ img {
 }
 /* media query  */
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
 
 
@@ -616,11 +616,12 @@ img {
         display: none;
     }
     .logo2{
-        display: inline-block;
+        display: block;
         width: 30px;
         height: 30px;
         aspect-ratio: 1/1;
         margin: auto;
+        padding-top: 0.4rem;
         }
         .menu-list{
             color: var(--text-primary-color);
@@ -643,6 +644,7 @@ img {
       
         .icon-big{
             font-size: 1rem;
+            
         }
         .home{
             display: none;
@@ -650,7 +652,10 @@ img {
         .search{
             display: none;
         }
-        .home{
+        .library{
             display: none;
+        }
+        .menu{
+            margin-top: 1rem;
         }
 }

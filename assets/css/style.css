@@ -266,7 +266,7 @@ img {
         aspect-ratio: 1;
         margin-left: 1rem;
         margin-right: 1rem;
-      
+
     }
 }
 
@@ -289,50 +289,54 @@ img {
     width: 30%;
     margin: 1.5rem 0;
 }
+
 .center-player {
     width: 40%;
     margin: 1rem 0;
     padding: 0 1rem;
 }
+
 .right-player {
     width: 30%;
     margin: 1.5rem 0rem;
 }
 
-.px-1{
+.px-1 {
     padding: 0 1rem;
 
 }
-.py-1{
+
+.py-1 {
     padding: 1rem 0;
 }
+
 .progress {
     width: 100%;
     height: 0.4rem;
-    background-color:  var(--text-secondary-color);
+    background-color: var(--text-secondary-color);
     color: 1px solid var(--text-secondary-color);
     border-radius: 0.5rem;
 
 }
 
-.time{
+.time {
     font-size: 0.8rem;
     font-weight: 200;
     color: var(--text-primary-color);
 }
 
 
-.icon{
+.icon {
     font-size: 1rem;
 
 }
 
-.progress-volume{
+.progress-volume {
 
-        width: 30%;
-        height: 0.4rem;
-        background-color:  var(--text-secondary-color);
-        color: 1px solid var(--text-secondary-color);
-        border-radius: 0.5rem;
-        margin-right: 1rem;
+    width: 30%;
+    height: 0.4rem;
+    background-color: var(--text-secondary-color);
+    color: 1px solid var(--text-secondary-color);
+    border-radius: 0.5rem;
+    margin-right: 1rem;
 }

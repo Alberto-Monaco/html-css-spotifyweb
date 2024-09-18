@@ -189,6 +189,13 @@ img {
 .justify-content-evenly{
     justify-content:space-evenly;
 }
+
+
+
+a:hover {
+    color: white;
+}
+
 /* end utility rule  */
 
 /* top bar section */

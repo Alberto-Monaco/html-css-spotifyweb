@@ -393,7 +393,8 @@ img {
     padding-top: 1rem;
     width: 70%;
     margin: auto;
-    display: flex;
+    text-align: center;
+
 
 
 
@@ -444,8 +445,7 @@ img {
 }
 
 .list-section{
-    padding-top: 1rem;
-    width: 70%;
+    padding: 1rem 0;
     margin: auto;
 }
 /* end content section */

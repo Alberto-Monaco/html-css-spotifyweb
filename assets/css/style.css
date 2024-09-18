@@ -87,10 +87,14 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -1rem;
 }
 .container {
     width: 90%;
     margin: auto;
+}
+[class*="col-"] {
+    padding: 0 1rem;
 }
 .col-1 {
     width: calc(100% / 12 * 1);
@@ -375,4 +379,15 @@ img {
 
 .justify-content-around{
     justify-content: space-around ;
+}
+.title-song{
+    font-size: 0.8rem;
+    color: var(--text-primary-color);
+    text-align: center;
+
+}
+.subtitle{
+    font-size: 0.5rem;
+    color: var(--text-secondary-color);
+    text-align: center;
 }

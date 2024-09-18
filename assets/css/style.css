@@ -223,10 +223,18 @@ img {
         font-size: 0.7rem;
         padding: 0.3rem 1rem;
     }
-    .menu-list{
+    .home{
         color: var(--text-primary-color);
     }
 
+    .search {
+        color: var(--text-secondary-color);
+    }
+
+    .library {
+        color: var(--text-secondary-color);
+    }
+    
 }
 
 
@@ -632,4 +640,17 @@ img {
         .icon-song{
             display: none;
         }  
+      
+        .icon-big{
+            font-size: 1rem;
+        }
+        .home{
+            display: none;
+        }
+        .search{
+            display: none;
+        }
+        .home{
+            display: none;
+        }
 }

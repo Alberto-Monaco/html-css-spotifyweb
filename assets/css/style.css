@@ -186,7 +186,9 @@ img {
 .primary-text {
     color: var(--text-primary-color);
 }
-
+.justify-content-evenly{
+    justify-content:space-evenly;
+}
 /* end utility rule  */
 
 /* top bar section */
@@ -669,4 +671,7 @@ img {
         .menu{
             margin-top: 1rem;
         }
+        
+
 }
+

@@ -76,13 +76,16 @@ body {
 .content {
     height: calc(100% - 80px);
 }
+
 .container {
     width: 90%;
     margin: auto;
 }
+
 img {
     max-width: 100%;
 }
+
 /* end layout rule  */
 
 /* utility rule  */
@@ -96,6 +99,11 @@ img {
     margin: 0 -1rem;
 }
 
+img:hover {
+    filter: opacity(0.4);
+
+
+}
 
 
 [class*="col-"] {
@@ -169,6 +177,7 @@ img {
 .align-items-start {
     align-items: flex-start;
 }
+
 .px-1 {
     padding: 0 1rem;
 
@@ -186,8 +195,9 @@ img {
 .primary-text {
     color: var(--text-primary-color);
 }
-.justify-content-evenly{
-    justify-content:space-evenly;
+
+.justify-content-evenly {
+    justify-content: space-evenly;
 }
 
 
@@ -240,7 +250,8 @@ a:hover {
         font-size: 0.7rem;
         padding: 0.3rem 1rem;
     }
-    .home{
+
+    .home {
         color: var(--text-primary-color);
     }
 
@@ -251,7 +262,7 @@ a:hover {
     .library {
         color: var(--text-secondary-color);
     }
-    
+
 }
 
 
@@ -440,21 +451,25 @@ a:hover {
         margin-bottom: 0.5rem;
     }
 }
-.align-items-end{
+
+.align-items-end {
     justify-content: flex-end;
     align-items: flex-end;
 }
-.logo2{
+
+.logo2 {
     display: none;
 }
-.wrap{
+
+.wrap {
     flex-wrap: wrap;
 }
 
-.list-section{
+.list-section {
     padding: 1rem 0;
     margin: auto;
 }
+
 /* end content section */
 /* media query  */
 
@@ -509,14 +524,15 @@ a:hover {
     .col-lg-12 {
         width: calc(100% / 12 * 12);
     }
+
     .music-section {
         padding-top: 1rem;
         width: 100%;
         margin: auto;
-    }    
+    }
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px){
+@media screen and (min-width: 600px) and (max-width: 767px) {
     .col-md-1 {
         width: calc(100% / 12 * 1);
     }
@@ -564,14 +580,16 @@ a:hover {
     .col-md-12 {
         width: calc(100% / 12 * 12);
     }
-    .song{
+
+    .song {
         font-size: 0.6rem;
     }
+
     .music-section {
         padding-top: 1rem;
         width: 100%;
         margin: auto;
-    }    
+    }
 }
 
 
@@ -623,62 +641,73 @@ a:hover {
     .col-s-12 {
         width: calc(100% / 12 * 12);
     }
+
     .sidebar-small {
         width: 40px;
         height: 100%;
     }
-    
+
     .box-center-small {
         width: calc(100% - 40px);
         height: 100%;
     }
-    .logo{
+
+    .logo {
         display: none;
     }
-    .logo2{
+
+    .logo2 {
         display: block;
         width: 30px;
         height: 30px;
         aspect-ratio: 1/1;
         margin: auto;
         padding-top: 0.4rem;
-        }
-        .menu-list{
-            color: var(--text-primary-color);
-            display: none;
-        }
-        .playlist{
-            display: none;
-        }
-        .song{
-            font-size: 0.6rem;
-        }
-        .music-section {
-            padding-top: 1rem;
-            width: 100%;
-            margin: auto;
-        }  
-        .icon-song{
-            display: none;
-        }  
-      
-        .icon-big{
-            font-size: 1rem;
-            
-        }
-        .home{
-            display: none;
-        }
-        .search{
-            display: none;
-        }
-        .library{
-            display: none;
-        }
-        .menu{
-            margin-top: 1rem;
-        }
-        
+    }
+
+    .menu-list {
+        color: var(--text-primary-color);
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    .song {
+        font-size: 0.6rem;
+    }
+
+    .music-section {
+        padding-top: 1rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .icon-song {
+        display: none;
+    }
+
+    .icon-big {
+        font-size: 1rem;
+
+    }
+
+    .home {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .library {
+        display: none;
+    }
+
+    .menu {
+        margin-top: 1rem;
+    }
+
 
 }
-

@@ -312,7 +312,6 @@ img {
     width: 100%;
     height: 0.4rem;
     background-color: var(--text-secondary-color);
-    color: 1px solid var(--text-secondary-color);
     border-radius: 0.5rem;
 
 }

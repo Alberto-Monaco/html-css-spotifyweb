@@ -89,13 +89,16 @@ body {
     flex-wrap: wrap;
     margin: 0 -1rem;
 }
+
 .container {
     width: 90%;
     margin: auto;
 }
+
 [class*="col-"] {
     padding: 0 1rem;
 }
+
 .col-1 {
     width: calc(100% / 12 * 1);
 }
@@ -350,7 +353,7 @@ img {
     overflow-y: scroll;
 }
 
-.name-list a{
+.name-list a {
     font-size: 0.9rem;
 }
 
@@ -360,6 +363,7 @@ img {
     left: 0;
     width: 100%;
 }
+
 /* end sidebar section  */
 
 /* content section  */
@@ -370,37 +374,39 @@ img {
     text-align: center;
     padding-bottom: 1.5rem;
 
-    
-    a{
+
+    a {
         text-decoration: none;
         font-size: 1.2rem;
         align-items: center;
     }
 }
 
-.justify-content-around{
-    justify-content: space-around ;
+.justify-content-around {
+    justify-content: space-around;
 }
-.title-song{
+
+.title-song {
     font-size: 1rem;
     color: var(--text-primary-color);
     text-align: center;
 
 }
-.subtitle{
+
+.subtitle {
     font-size: 0.8rem;
     color: var(--text-secondary-color);
     text-align: center;
 }
-.album{
+
+.album {
     text-align: center;
     margin: 1rem 0;
-    
 
-    img{
+
+    img {
         width: 100%;
         aspect-ratio: 1;
         margin-bottom: 0.5rem;
     }
 }
-

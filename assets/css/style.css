@@ -352,7 +352,7 @@ img {
 
 .progress-volume {
 
-    width: 35%;
+    width: 30%;
     height: 0.2rem;
     background-color: var(--text-secondary-color);
     color: 1px solid var(--text-secondary-color);
@@ -382,6 +382,7 @@ img {
     padding-top: 1rem;
     width: 70%;
     margin: auto;
+    display: flex;
 
 
 

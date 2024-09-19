@@ -220,8 +220,13 @@ a:hover {
 .info-song:hover .song{
     text-decoration: underline;
 }
+.border-bottom {
+    border-bottom: 1px solid var(--line-hover-color);
 
-
+}
+.border-left{
+    border-left: #adff2f 1px solid;
+}
 .name-list:hover a{
     color: var(--text-primary-color);
 }

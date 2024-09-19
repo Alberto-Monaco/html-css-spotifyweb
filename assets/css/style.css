@@ -774,5 +774,17 @@ a:hover {
         margin-top: 1rem;
     }
 
+    .download{
+        display: none;
+    }
+
+    .user{
+        display: none;
+        
+    }
+    .sidebar-bottom hr{
+        display: none;
+    }
+
 
 }

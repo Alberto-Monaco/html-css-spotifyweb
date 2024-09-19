@@ -214,7 +214,10 @@ a:hover {
     color: white;
 }
 
-.secondary-text:hover {
+.sidebar .secondary-text:hover {
+    color: var(--text-primary-color);
+}
+.bottom .secondary-text:hover {
     color: var(--text-primary-color);
 }
 

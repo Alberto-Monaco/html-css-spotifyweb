@@ -432,6 +432,13 @@ a:hover {
     border-radius: 0.5rem;
 
 }
+.progress2 {
+    width: 20%;
+    height: 0.2rem;
+    background-color: var(--text-primary-color);
+    border-radius: 0.5rem;
+
+}
 
 .time {
     font-size: 0.8rem;
@@ -456,6 +463,8 @@ a:hover {
     border-radius: 0.5rem;
     margin-right: 1rem;
 }
+
+
 
 /* end bottom section  */
 

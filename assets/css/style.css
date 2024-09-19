@@ -99,10 +99,8 @@ img {
     margin: 0 -1rem;
 }
 
-img:hover {
+.box-center img:hover {
     filter: opacity(0.4);
-
-
 }
 
 

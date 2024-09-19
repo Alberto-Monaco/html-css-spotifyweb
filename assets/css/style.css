@@ -208,9 +208,7 @@ img {
     justify-content: space-evenly;
 }
 
-.playlist {
-    overflow-y: none;
-}
+
 
 a:hover {
     color: white;

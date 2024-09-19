@@ -574,6 +574,8 @@ a:hover {
 .list-section {
     padding: 1rem 0;
     margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 /* end content section */

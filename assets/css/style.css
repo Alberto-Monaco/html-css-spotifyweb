@@ -86,11 +86,21 @@ img {
     max-width: 100%;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
 /* end layout rule  */
 
 /* utility rule  */
 .d-flex {
     display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
 
 .row {
@@ -198,11 +208,15 @@ img {
     justify-content: space-evenly;
 }
 
-
+.playlist {
+    overflow: hidden;
+}
 
 a:hover {
     color: white;
 }
+
+.sidebar-bottom {}
 
 /* end utility rule  */
 
@@ -242,6 +256,8 @@ a:hover {
 
 .menu {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     a {
         text-decoration: none;
@@ -289,7 +305,58 @@ a:hover {
         color: var(--text-secondary-color);
     }
 
+
+
 }
+
+.install {
+    padding-bottom: 0.5rem;
+
+    a {
+        color: var(--text-secondary-color);
+        padding-left: 1rem;
+        vertical-align: middle;
+        font-size: 0.9rem;
+        text-decoration: none;
+
+        i {
+            color: var(--text-secondary-color);
+
+            vertical-align: middle;
+            padding-right: 0.3rem;
+        }
+
+    }
+
+}
+
+.sidebar-bottom hr{
+    border-color: #ffffff4d;
+    margin: auto;
+    width: 88%;
+}
+.account {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    a {
+        color: var(--text-primary-color);
+        padding-left: 1rem;
+        vertical-align: middle;
+        font-size: 0.9rem;
+        text-decoration: none;
+        ;
+
+    }
+}
+
+.account i {
+    color: var(--text-primary-color);
+    vertical-align: middle;
+    padding-right: 0.3rem;
+    font-size: 1.5rem;
+}
+
 
 .name-list {
     padding-bottom: 0.2rem;

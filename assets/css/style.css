@@ -242,6 +242,13 @@ a:hover {
 .light:hover {
     color: var(--text-primary-color);
 }   
+
+.light-btn:hover {
+    padding: 1rem 2.5rem;
+    
+}
+
+
 /* end utility rule  */
 
 /* top bar section */

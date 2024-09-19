@@ -217,20 +217,31 @@ a:hover {
 .secondary-text:hover {
     color: var(--text-primary-color);
 }
-.info-song:hover .song{
+
+.info-song:hover .song {
     text-decoration: underline;
 }
+
 .border-bottom {
     border-bottom: 1px solid var(--line-hover-color);
 
 }
-.border-left{
+
+.border-left {
     border-left: #adff2f 1px solid;
 }
-.name-list:hover a{
+
+.name-list:hover a {
     color: var(--text-primary-color);
 }
 
+.sidebar-bottom a:hover {
+    color: var(--text-primary-color);
+}
+
+.light:hover {
+    color: var(--text-primary-color);
+}   
 /* end utility rule  */
 
 /* top bar section */
@@ -347,11 +358,13 @@ a:hover {
     left: 0;
     width: 245px;
 }
+
 .sidebar-bottom hr {
     border-color: #ffffff4d;
     margin: auto;
     width: 88%;
 }
+
 .account {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -440,6 +453,7 @@ a:hover {
     border-radius: 0.5rem;
 
 }
+
 .progress2 {
     width: 20%;
     height: 0.2rem;

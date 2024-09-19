@@ -209,7 +209,7 @@ img {
 }
 
 .playlist {
-    overflow: hidden;
+    overflow: none;
 }
 
 a:hover {
@@ -329,12 +329,20 @@ a:hover {
     }
 
 }
+.sidebar-bottom {
+    position: fixed;
+    bottom: 80px;
+    left: 0;
+    width:245px;
 
-.sidebar-bottom hr{
+}
+
+.sidebar-bottom hr {
     border-color: #ffffff4d;
     margin: auto;
     width: 88%;
 }
+
 .account {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -477,9 +485,6 @@ a:hover {
     width: 70%;
     margin: auto;
     text-align: center;
-
-
-
 
 
     a {
@@ -774,15 +779,16 @@ a:hover {
         margin-top: 1rem;
     }
 
-    .download{
+    .download {
         display: none;
     }
 
-    .user{
+    .user {
         display: none;
-        
+
     }
-    .sidebar-bottom hr{
+
+    .sidebar-bottom hr {
         display: none;
     }
 

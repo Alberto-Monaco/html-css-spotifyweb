@@ -209,14 +209,15 @@ img {
 }
 
 .playlist {
-    overflow: none;
+    overflow-y: none;
 }
 
 a:hover {
     color: white;
 }
 
-.sidebar-bottom {}
+
+
 
 /* end utility rule  */
 
@@ -372,7 +373,7 @@ a:hover {
 }
 
 .content {
-    height: auto;
+    height: max-content;
     background-color: var(--box-center-bg-color);
 }
 

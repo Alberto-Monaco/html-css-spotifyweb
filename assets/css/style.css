@@ -315,54 +315,47 @@ a:hover {
 
     a {
         color: var(--text-secondary-color);
-        padding-left: 1rem;
+        padding-left: 0.7rem;
         vertical-align: middle;
         font-size: 0.9rem;
         text-decoration: none;
 
         i {
             color: var(--text-secondary-color);
-
-            vertical-align: middle;
-            padding-right: 0.3rem;
+            padding-right: 0.5rem;
         }
 
     }
 
 }
+
 .sidebar-bottom {
     position: fixed;
     bottom: 80px;
     left: 0;
-    width:245px;
-
+    width: 245px;
 }
-
 .sidebar-bottom hr {
     border-color: #ffffff4d;
     margin: auto;
     width: 88%;
 }
-
 .account {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 
     a {
         color: var(--text-primary-color);
-        padding-left: 1rem;
-        vertical-align: middle;
+        padding-left: 0.5rem;
         font-size: 0.9rem;
         text-decoration: none;
         ;
-
     }
 }
 
 .account i {
     color: var(--text-primary-color);
-    vertical-align: middle;
-    padding-right: 0.3rem;
+    padding-right: 0.5rem;
     font-size: 1.5rem;
 }
 

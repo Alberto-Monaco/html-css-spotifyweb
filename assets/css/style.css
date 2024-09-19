@@ -224,6 +224,7 @@ a:hover {
 
 .info-song:hover .song {
     text-decoration: underline;
+    color: var(--text-primary-color);
 }
 
 .border-bottom {
@@ -431,6 +432,7 @@ a:hover {
 
 .song {
     font-size: 0.7rem;
+    color: var(--text-secondary-color);
 }
 
 .icon-song {

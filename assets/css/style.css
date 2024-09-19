@@ -216,6 +216,14 @@ a:hover {
     color: white;
 }
 
+.secondary-text:hover {
+    color: var(--text-primary-color);
+}
+.info-song:hover .song{
+    text-decoration: underline;
+}
+
+    
 
 
 

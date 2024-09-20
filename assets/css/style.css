@@ -297,7 +297,7 @@ a:hover {
 
     a {
         text-decoration: none;
-        font-size: 0.7rem;
+        font-size: 1rem;
         padding: 0.3rem 1rem;
     }
 
@@ -800,7 +800,9 @@ a:hover {
     }
 
     .icon-big {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        padding-right: 1rem;
+
 
     }
 
@@ -818,6 +820,9 @@ a:hover {
 
     .menu {
         margin-top: 1rem;
+        a{
+            padding: 0.5rem;
+        }
     }
 
     .download {

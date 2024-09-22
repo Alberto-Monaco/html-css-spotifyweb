@@ -820,7 +820,8 @@ a:hover {
 
     .menu {
         margin-top: 1rem;
-        a{
+
+        a {
             padding: 0.5rem;
         }
     }
